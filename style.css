@@ -241,7 +241,31 @@ body{
     font-size: 18px;
 }
 
-.catalog{
+#f_bd{
+    height: 68px;
+    width: 99px;
+    flex-direction: column;
+    background-color: black;
+    opacity: 0.6;
+    cursor: pointer;
+    border-radius: 10px;
+    position: absolute;
+    top: 318px;
+    right: 197px;
+    z-index: 1;
+    display: none;
+}
+
+.f_by_d{
+    background-color: black;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#catalog{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
     grid-template-rows: repeat(3, 385px);
@@ -406,5 +430,10 @@ body{
 
     #s_item{
         top: 351px;
+    }
+
+    #f_bd{
+        right: 37px;
+        top: 322px;
     }
 }

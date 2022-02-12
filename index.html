@@ -70,6 +70,7 @@
                         <option id="f_b_name"value="brand">Brand</option>
                         <option value="Price">Price</option>
                         <option value="Star Rating">Star Rating</option>
+                        <option value="delivery">Delivery By</option>
                     </select>
                     </label>
                 </div>
@@ -96,6 +97,11 @@
                     <button class="f_by_r" onclick="filter_rating(2)">Less then 2 Star</button>
                 </div>
 
+                <div id="f_bd">
+                    <button class="f_by_d" value="Today">Today</button>
+                    <button class="f_by_d" value="Tomorrow">Tomorrow</button>
+                </div>
+
                 <div class="sort_item">
                     <label for="Sort By">Sort by :
                     <select name="Sort" id="sort" onchange="expand_sort()">
@@ -115,7 +121,7 @@
 
         </div>
 
-        <div class="catalog">
+        <div id="catalog">
             
             <div class="box" >
                 <div class="image">
@@ -132,7 +138,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">2000.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -150,7 +156,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">1900.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Tomorrow</small>
+                    <small>Delivery by: <Span class="delivery">Tomorrow</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -168,7 +174,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">2500.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -186,7 +192,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">5500.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span></small>
+                    <small>Delivery by: <Span class="delivery"></Span></small>
                 </div>
             </div>
             <div class="box">
@@ -204,7 +210,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">3000.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -222,7 +228,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">6000.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Tomorrow</small>
+                    <small>Delivery by: <Span class="delivery">Tomorrow</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -240,7 +246,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">1700.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -258,7 +264,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">1900.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Tomorrow</small>
+                    <small>Delivery by: <Span class="delivery">Tomorrow</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -276,7 +282,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">2600.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -294,7 +300,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">3000.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span></small>
+                    <small>Delivery by: <Span class="delivery"></Span></small>
                 </div>
             </div>
             <div class="box">
@@ -312,7 +318,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">3200.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -330,7 +336,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">2400.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Tomorrow</small>
+                    <small>Delivery by: <Span class="delivery">Tomorrow</Span></small>
                 </div>
             </div><div class="box">
                 <div class="image">
@@ -347,7 +353,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">2100.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -365,7 +371,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">1900.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Tomorrow</small>
+                    <small>Delivery by: <Span class="delivery">Tomorrow</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -383,7 +389,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">5100.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -401,7 +407,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">2300.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span></small>
+                    <small>Delivery by: <Span class="delivery"></Span></small>
                 </div>
             </div>
             <div class="box">
@@ -419,7 +425,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">3000.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Today</small>
+                    <small>Delivery by: <Span class="delivery">Today</Span></small>
                 </div>
             </div>
             <div class="box">
@@ -437,7 +443,7 @@
                         </div>
                     </div>
                     <h2 class="price">₹<span class="price_tag">2500.00</span></h2>
-                    <small><Span class="delivery">Delivery by: </Span>Tomorrow</small>
+                    <small>Delivery by: <Span class="delivery">Tomorrow</Span></small>
                 </div>
             </div>
 
