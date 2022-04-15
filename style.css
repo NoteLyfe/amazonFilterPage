@@ -268,7 +268,7 @@ body{
 #catalog{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 2fr));
-    grid-template-rows: repeat(3, 385px);
+    grid-template-rows: auto;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
     margin: 36px 10px 0 10px;
@@ -278,6 +278,7 @@ body{
 .box{
     background-color: white;
     border-radius: 10px;
+    height: 385px;
     display: flex;
     flex-direction: column;
     justify-content: center;
